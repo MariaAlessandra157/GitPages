@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e3b6e1;
+  padding: 80px 100px;
+  border-radius: 25px; 
+  margin: 30px;
+  
+}
+.texto{
+  flex: 1;
+  max-width: 50%;
+}
+.texto h1{
+  font-size: 3rem;
+  font-weight: 900;
+  text-align:left;
+}
+.resaltado1{
+  background-color: white;
+}
+.resaltado2{
+  background-color: yellow;
+  display: inline-block; 
+  transform: rotate(-3deg);
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  background-color: white;
+}
+.logo{
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+nav li:last-child a{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px; 
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    transition: box-shadow 0.3s ease;
+}
+nav li:last-child a:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 15px 5px rgba(240, 11, 11, 0.6);
+}
+.imagen{
+  flex: 1;
+  text-align: right;
+}
+.imagen img{
+  width: 400px;
+  border-radius: 20px;
+}
+.texto a{
+  display: inline-block;
+  margin-top: 25px;
+  background-color: black;
+  color: white;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+.texto a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 15px 5px rgba(240, 11, 11, 0.6);
+}
+

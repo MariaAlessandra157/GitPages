@@ -1,0 +1,40 @@
+body{
+    background-color: #e8abab;
+    margin: 10px;
+}
+
+.Tarjetas{
+    margin: 10px;
+    border-color: antiquewhite;
+
+}
+
+.tarjeta-1{
+    background-color: #dff646;
+    border: 2px solid green;
+    margin: 2px;
+    padding: 15px;
+}
+
+.tarjeta-2{
+    background-color: #aa46f6;
+    border: 2px solid rgb(167, 189, 100);
+    margin: 2px;
+    padding: 15px;
+}
+
+.tarjeta-3{
+    background-color: #0eacdc;
+    border: 2px solid rgb(45, 11, 75);
+    margin: 2px;
+    padding: 15px;
+}
+
+.volver{
+    /*background-color: #b2f5d6;
+    border: 2px solid rgb(184, 135, 227);*/
+    margin: 1%;
+    padding: 8px;
+    flex-direction: column-reverse;
+    align-items:baseline;
+}
